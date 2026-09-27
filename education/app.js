@@ -1,16 +1,16 @@
 const lessons=[
-["01","What Is Pashmina?","The fibre, its origin and the beginning of the journey.","fibre.jpg"],
-["02","The Himalayan Goat","Where Pashmina begins — the Changthangi goat and its environment.","images/05_changthangi_goats.jpg"],
-["03","Cleaning & Dehairing","Preparing raw fibre by removing coarse hair, dust and impurities.","images/03_raw_pashmina_fibre.jpg"],
-["04","Carding & Spinning","Turning prepared fibre into yarn, by hand or machine.","spinning.jpg"],
-["05","Preparing the Loom","Understanding warp, weft and the transition from yarn to cloth.","weaving.jpg"],
-["06","Sozni","The art of fine Kashmiri hand embroidery.","sozni.jpg"],
-["07","Kani","The art of patterned Kashmiri weaving.","kani.jpg"],
-["08","Finishing the Pashmina","Preparing woven and embroidered textiles for the finished piece.","jamawar.jpg"],
-["09","Understanding Genuine Pashmina","Looking beyond labels, informal tests and assumptions.","fibre.jpg"],
-["10","Pashmina & Cashmere","Understanding two closely related names and their contexts.","jamawar.jpg"],
-["11","The Artisan","The human hands, knowledge and time behind the craft.","artisan.jpg"],
-["12","The Future","Preserving a living tradition while allowing it to evolve.","hero-goat.jpg"]
+["01","What Is Pashmina?","The fibre, its origin and the beginning of the journey.","https://commons.wikimedia.org/wiki/Special:Redirect/file/Handwoven-kashmir-pashmina.jpg"],
+["02","The Himalayan Goat","Where Pashmina begins — the Changthangi goat and its environment.","https://commons.wikimedia.org/wiki/Special:Redirect/file/Changthangi_goat.jpg"],
+["03","Cleaning & Dehairing","Preparing raw fibre by removing coarse hair, dust and impurities.","https://commons.wikimedia.org/wiki/Special:Redirect/file/Cashmere12.8micronJos%26fine.jpg"],
+["04","Carding & Spinning","Turning prepared fibre into yarn, by hand or machine.","https://commons.wikimedia.org/wiki/Special:Redirect/file/Charkha_spinning_wheel.jpg"],
+["05","Preparing the Loom","Understanding warp, weft and the transition from yarn to cloth.","https://commons.wikimedia.org/wiki/Special:Redirect/file/Pashmina_weaving_in_Srinagar.jpg"],
+["06","Sozni","The art of fine Kashmiri hand embroidery.","https://commons.wikimedia.org/wiki/Special:Redirect/file/Embroidered-pashmina-shawl.jpg"],
+["07","Kani","The art of patterned Kashmiri weaving.","https://commons.wikimedia.org/wiki/Special:Redirect/file/Blue_kani_final.jpg"],
+["08","Finishing the Pashmina","Preparing woven and embroidered textiles for the finished piece.","https://commons.wikimedia.org/wiki/Special:Redirect/file/Jamewar_shawl%2C_Kashmir%2C_wool%2C_Honolulu_Museum_of_Art_936.JPG"],
+["09","Understanding Genuine Pashmina","Looking beyond labels, informal tests and assumptions.","https://commons.wikimedia.org/wiki/Special:Redirect/file/Handwoven-kashmir-pashmina.jpg"],
+["10","Pashmina & Cashmere","Understanding two closely related names and their contexts.","https://commons.wikimedia.org/wiki/Special:Redirect/file/Jamewar_shawl%2C_Kashmir%2C_wool%2C_Honolulu_Museum_of_Art_936.JPG"],
+["11","The Artisan","The human hands, knowledge and time behind the craft.","https://commons.wikimedia.org/wiki/Special:Redirect/file/Kashmiri-shawl-weaver-at-Bait-ul-Meeras.jpg"],
+["12","The Future","Preserving a living tradition while allowing it to evolve.","https://commons.wikimedia.org/wiki/Special:Redirect/file/Changthangi_goat.jpg"]
 ];
 
 const grid=document.getElementById("lesson-grid");
