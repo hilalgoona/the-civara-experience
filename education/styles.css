@@ -57,3 +57,7 @@ footer{background:#171b17;color:#ddd;padding:60px 7vw;display:flex;justify-conte
 .archive-original-frame{background:#f1eee7;padding:clamp(12px,2vw,24px);border:1px solid rgba(0,0,0,.08);display:flex;justify-content:center;align-items:center;}
 .archive-original-frame img{display:block;width:100%;max-width:900px;height:auto;object-fit:contain;box-shadow:0 18px 50px rgba(0,0,0,.12);}
 .archive-original figcaption{margin-top:.8rem;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;opacity:.72;}
+
+.archive-original{margin:0 0 28px;background:#eee9de;padding:14px;border:1px solid var(--line)}
+.archive-original img{display:block;width:100%;height:auto;max-height:none;object-fit:contain;background:#ddd}
+.archive-original figcaption{padding:10px 6px 2px}
