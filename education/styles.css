@@ -61,3 +61,15 @@ footer{background:#171b17;color:#ddd;padding:60px 7vw;display:flex;justify-conte
 .archive-original{margin:0 0 28px;background:#eee9de;padding:14px;border:1px solid var(--line)}
 .archive-original img{display:block;width:100%;height:auto;max-height:none;object-fit:contain;background:#ddd}
 .archive-original figcaption{padding:10px 6px 2px}
+
+.archive-slices-intro{max-width:780px;margin:70px auto 35px;text-align:center}
+.archive-slices-intro h3{font-family:"Playfair Display";font-size:clamp(34px,4vw,54px);font-weight:500;margin:0 0 14px}
+.archive-slices-intro p:last-child{color:#777;max-width:680px;margin:0 auto}
+.archive-slices{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.archive-slice{margin:0;background:var(--paper);border:1px solid var(--line);overflow:hidden}
+.archive-slice>div{position:relative;overflow:hidden;width:100%;aspect-ratio:var(--cw)/var(--ch);background:#ddd}
+.archive-slice img{position:absolute;left:var(--l);top:var(--t);width:var(--w);max-width:none;height:auto;display:block}
+.archive-slice figcaption{padding:12px 15px 15px;margin:0}
+.archive-slice-wide{grid-column:1/-1}
+@media(max-width:900px){.archive-slices{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.archive-slices{grid-template-columns:1fr}.archive-slice-wide{grid-column:auto}}
