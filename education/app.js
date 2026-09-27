@@ -1,16 +1,16 @@
 const lessons=[
-["01","What Is Pashmina?","The fibre, its origin and the beginning of the journey.","images/fibre.jpg"],
+["01","What Is Pashmina?","The fibre, its origin and the beginning of the journey.","fibre.jpg"],
 ["02","The Himalayan Goat","Where Pashmina begins — the Changthangi goat and its environment.","images/05_changthangi_goats.jpg"],
 ["03","Cleaning & Dehairing","Preparing raw fibre by removing coarse hair, dust and impurities.","images/03_raw_pashmina_fibre.jpg"],
-["04","Carding & Spinning","Turning prepared fibre into yarn, by hand or machine.","images/spinning.jpg"],
-["05","Preparing the Loom","Understanding warp, weft and the transition from yarn to cloth.","images/weaving.jpg"],
-["06","Sozni","The art of fine Kashmiri hand embroidery.","images/sozni.jpg"],
-["07","Kani","The art of patterned Kashmiri weaving.","images/kani.jpg"],
-["08","Finishing the Pashmina","Preparing woven and embroidered textiles for the finished piece.","images/jamawar.jpg"],
-["09","Understanding Genuine Pashmina","Looking beyond labels, informal tests and assumptions.","images/fibre.jpg"],
-["10","Pashmina & Cashmere","Understanding two closely related names and their contexts.","images/jamawar.jpg"],
-["11","The Artisan","The human hands, knowledge and time behind the craft.","images/artisan.jpg"],
-["12","The Future","Preserving a living tradition while allowing it to evolve.","images/hero-goat.jpg"]
+["04","Carding & Spinning","Turning prepared fibre into yarn, by hand or machine.","spinning.jpg"],
+["05","Preparing the Loom","Understanding warp, weft and the transition from yarn to cloth.","weaving.jpg"],
+["06","Sozni","The art of fine Kashmiri hand embroidery.","sozni.jpg"],
+["07","Kani","The art of patterned Kashmiri weaving.","kani.jpg"],
+["08","Finishing the Pashmina","Preparing woven and embroidered textiles for the finished piece.","jamawar.jpg"],
+["09","Understanding Genuine Pashmina","Looking beyond labels, informal tests and assumptions.","fibre.jpg"],
+["10","Pashmina & Cashmere","Understanding two closely related names and their contexts.","jamawar.jpg"],
+["11","The Artisan","The human hands, knowledge and time behind the craft.","artisan.jpg"],
+["12","The Future","Preserving a living tradition while allowing it to evolve.","hero-goat.jpg"]
 ];
 
 const grid=document.getElementById("lesson-grid");
