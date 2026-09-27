@@ -35,3 +35,6 @@ footer{background:#171b17;color:#ddd;padding:60px 7vw;display:flex;justify-conte
 .photo-story{background:var(--ivory);max-width:none;padding-left:7vw;padding-right:7vw}.photo-grid{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:18px}.photo-grid figure{margin:0}.photo-grid img{width:100%;height:420px;object-fit:cover;display:block}.photo-grid figure:first-child img{height:520px}.photo-grid figcaption{padding-top:12px}.editorial-image img{object-fit:cover}.editorial-image figcaption{padding:0 8px}.real-note,.lesson-hero-note{display:none}
 @media(max-width:900px){.photo-grid{grid-template-columns:1fr 1fr}.photo-grid img,.photo-grid figure:first-child img{height:360px}.photo-grid figure:first-child{grid-column:1/-1}}
 @media(max-width:560px){.photo-grid{grid-template-columns:1fr}.photo-grid figure:first-child{grid-column:auto}.photo-grid img,.photo-grid figure:first-child img{height:300px}}
+
+.process-caption{display:flex;justify-content:space-between;gap:14px;border-top:1px solid var(--line);padding-top:18px;color:#8a826f;font-size:9px;letter-spacing:.16em}.process-caption span{white-space:nowrap}
+@media(max-width:560px){.process-caption{flex-wrap:wrap;justify-content:flex-start;gap:10px 22px}}
