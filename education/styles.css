@@ -18,3 +18,15 @@ footer{background:#171b17;color:#ddd;padding:60px 7vw;display:flex;justify-conte
 @media(max-width:900px){.nav nav{display:none}.hero{grid-template-columns:1fr}.hero-art{min-height:420px}.section{padding:80px 6vw}.intro-layout{grid-template-columns:1fr;gap:45px}.section-number{font-size:42px;float:none;margin:0 0 8px}.lesson-grid{grid-template-columns:repeat(2,1fr)}.three-grid,.craft-grid,.gi-grid{grid-template-columns:1fr}.people-grid{grid-template-columns:repeat(2,1fr)}.four-grid{grid-template-columns:repeat(2,1fr)}.section-head{display:block}.section-head>p{margin-top:20px}.hero h1{font-size:52px}.hero-meta{margin-top:35px}.editorial-image{height:430px}footer{display:block}.lesson-hero{padding:80px 6vw}.lesson-hero-art{height:55vw}}
 @media(max-width:560px){.lesson-grid,.people-grid,.four-grid{grid-template-columns:1fr}.hero-copy{padding:70px 7vw}.nav-cta{display:none}.lesson-image{height:190px}.lead{font-size:21px}.section h2{font-size:42px}.wide-visual{height:68vw}.hero-art{min-height:360px}.hero-caption{font-size:8px}.lesson-hero-art{height:72vw}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}.image-frame img,.wide-visual img,.editorial-image img,.lesson-image img{transition:none}}
+
+
+/* Real-photography transition */
+.workshop-placeholder{min-height:520px;display:flex;align-items:flex-end;padding:48px;background:linear-gradient(135deg,#d8d0bd,#8d826d 55%,#332f28);color:#fff;position:relative;overflow:hidden}
+.workshop-placeholder:before{content:"CIVARA WORKSHOP";position:absolute;top:42px;right:42px;writing-mode:vertical-rl;letter-spacing:.22em;font-size:.72rem;opacity:.65}
+.workshop-placeholder h3{max-width:520px;font:500 clamp(2rem,3.6vw,4rem)/1.05 Georgia,serif;margin:10px 0 16px}
+.workshop-placeholder p:not(.eyebrow){max-width:520px;color:rgba(255,255,255,.82)}
+.real-note,.lesson-hero-note{border:1px solid var(--line,#d9d1c3);background:#f4efe5;padding:38px 42px;min-height:260px;display:flex;flex-direction:column;justify-content:center}
+.real-note h3{font:500 clamp(1.7rem,3vw,3rem)/1.08 Georgia,serif;margin:8px 0 14px;max-width:680px}
+.lesson-hero-note{margin-top:30px;min-height:190px}
+.lesson-hero-note p:last-child{max-width:700px}
+.lesson-image{display:none!important}
