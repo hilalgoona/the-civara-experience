@@ -65,6 +65,11 @@
     <div class="archive-mark">ARCHIVE<br><span>01 — 06</span></div>
   </div>
 
+  <figure class="archive-original">
+    <div class="archive-original-frame"><img id="archive-collage-original" alt="Original Civara Workshop archive collage — displayed intact" loading="lazy"></div>
+    <figcaption>00 · Original Civara Workshop archive collage — the complete visual record, kept intact.</figcaption>
+  </figure>
+
   <div class="archive-collage">
     <figure class="archive-feature">
       <img src="images/01_loom_weaver.jpg" alt="Archive photograph of a Kashmiri weaver working at a loom" loading="lazy">
@@ -187,5 +192,8 @@
 </main>
 
 <footer><div><b>CIVARA WORKSHOP</b><p>Where Pashmina is Soulwear, and Healing is a Way of Life.</p></div><div><p>Kashmir Pashmina Education</p><a href="https://civaraworkshop.com" target="_blank" rel="noopener">civaraworkshop.com ↗</a></div></footer>
+<script>
+(async()=>{try{const parts=await Promise.all(["00","01","02"].map(n=>fetch("images/archive-b64/"+n+".txt").then(r=>r.text())));const img=document.getElementById("archive-collage-original");img.src="data:image/jpeg;base64,"+parts.join("");}catch(e){console.warn("Archive collage could not load",e);}})();
+</script>
 <script src="app.js"></script>
 </body></html>
