@@ -7,10 +7,10 @@ const lessons=[
 ["06","Sozni","The art of fine Kashmiri hand embroidery.","https://commons.wikimedia.org/wiki/Special:Redirect/file/Embroidered-pashmina-shawl.jpg"],
 ["07","Kani","The art of patterned Kashmiri weaving.","https://commons.wikimedia.org/wiki/Special:Redirect/file/Blue_kani_final.jpg"],
 ["08","Finishing the Pashmina","Preparing woven and embroidered textiles for the finished piece.","https://commons.wikimedia.org/wiki/Special:Redirect/file/Jamewar_shawl%2C_Kashmir%2C_wool%2C_Honolulu_Museum_of_Art_936.JPG"],
-["09","Understanding Genuine Pashmina","Looking beyond labels, informal tests and assumptions.","https://commons.wikimedia.org/wiki/Special:Redirect/file/Handwoven-kashmir-pashmina.jpg"],
-["10","Pashmina & Cashmere","Understanding two closely related names and their contexts.","https://commons.wikimedia.org/wiki/Special:Redirect/file/Jamewar_shawl%2C_Kashmir%2C_wool%2C_Honolulu_Museum_of_Art_936.JPG"],
+["09","Understanding Genuine Pashmina","Looking beyond labels, informal tests and assumptions.","https://commons.wikimedia.org/wiki/Special:Redirect/file/Embroidery_on_a_wollen_shawl_from_Kashmir_01.jpg"],
+["10","Pashmina & Cashmere","Understanding two closely related names and their contexts.","https://commons.wikimedia.org/wiki/Special:Redirect/file/Shawl%2C_India%2C_Kashmir%2C_early_19th_century%2C_Honolulu_Museum_of_Art_2831.JPG"],
 ["11","The Artisan","The human hands, knowledge and time behind the craft.","https://commons.wikimedia.org/wiki/Special:Redirect/file/Kashmiri-shawl-weaver-at-Bait-ul-Meeras.jpg"],
-["12","The Future","Preserving a living tradition while allowing it to evolve.","https://commons.wikimedia.org/wiki/Special:Redirect/file/Changthangi_goat.jpg"]
+["12","The Future","Preserving a living tradition while allowing it to evolve.","https://commons.wikimedia.org/wiki/Special:Redirect/file/Pashmina_Goats.jpg"]
 ];
 
 const grid=document.getElementById("lesson-grid");
