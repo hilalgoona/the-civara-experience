@@ -38,3 +38,6 @@ footer{background:#171b17;color:#ddd;padding:60px 7vw;display:flex;justify-conte
 
 .process-caption{display:flex;justify-content:space-between;gap:14px;border-top:1px solid var(--line);padding-top:18px;color:#8a826f;font-size:9px;letter-spacing:.16em}.process-caption span{white-space:nowrap}
 @media(max-width:560px){.process-caption{flex-wrap:wrap;justify-content:flex-start;gap:10px 22px}}
+
+.civara-story{background:#f1ede4}.civara-story-grid{display:grid;grid-template-columns:1.35fr .85fr;gap:clamp(28px,5vw,80px);align-items:center}.civara-office{margin:0}.civara-office img{width:100%;height:min(52vw,620px);object-fit:cover;display:block;filter:saturate(.92)}.civara-office figcaption{padding-top:12px;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#8a826f}.civara-story-copy{max-width:560px}.civara-story-copy h3{font:500 clamp(2rem,3.5vw,4rem)/1.08 Georgia,serif;margin:10px 0 18px}.civara-story-copy p:not(.eyebrow){color:#625e55;line-height:1.8}
+@media(max-width:800px){.civara-story-grid{grid-template-columns:1fr}.civara-office img{height:68vw}}
