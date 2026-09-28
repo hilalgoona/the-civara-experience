@@ -186,3 +186,6 @@ footer{background:#171b17;color:#ddd;padding:60px 7vw;display:flex;justify-conte
 .hero-evidence .evidence-closing p{margin:0 0 10px;color:#d8d5cc}
 .hero-evidence .evidence-closing strong{font-family:"Playfair Display",Georgia,serif;font-size:20px;font-weight:500;color:#f5f1e8}
 @media(max-width:850px){.hero-evidence{min-height:auto}.hero-evidence .evidence-closing{margin-top:22px}}
+
+.hero-evidence .evidence-intro h1{font-size:clamp(48px,7vw,96px);line-height:.9;margin:12px 0 25px;letter-spacing:-.045em}
+.hero-evidence .evidence-intro h1 em{font-style:normal;color:#d6c59a}
