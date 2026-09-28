@@ -168,3 +168,11 @@ footer{background:#171b17;color:#ddd;padding:60px 7vw;display:flex;justify-conte
  .evidence-rule{grid-template-columns:1fr;gap:10px}
  .evidence-card{min-height:auto}
 }
+
+
+/* Real field video */
+.lesson-video{margin:60px 0 45px;padding-top:28px;border-top:1px solid var(--line)}
+.lesson-video h3{font:500 clamp(1.8rem,3vw,3rem)/1.08 "Playfair Display",Georgia,serif;margin:8px 0 22px}
+.lesson-video video{width:100%;display:block;background:#171914;max-height:620px;object-fit:contain}
+.video-caption{font-size:10px!important;letter-spacing:.12em;text-transform:uppercase;color:#8a826f!important;margin-top:12px}
+@media(max-width:560px){.lesson-video{margin-top:42px}.lesson-video video{max-height:70vh}}
