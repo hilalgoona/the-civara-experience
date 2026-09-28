@@ -9,8 +9,8 @@ const lessons=[
 ["08","Finishing the Pashmina","Preparing woven and embroidered textiles for the finished piece.","images/lesson08-finished.jpg"],
 ["09","Understanding Genuine Pashmina","Looking beyond labels, informal tests and assumptions.","images/lesson09-gi.jpg"],
 ["10","Pashmina & Cashmere","Understanding two closely related names and their contexts.","images/lesson10-cashmere.jpg"],
-["11","The Artisan","The human hands, knowledge and time behind the craft.","artisan.jpg"],
-["12","The Future","Preserving a living tradition while allowing it to evolve.","images/lesson02-goat.jpg"]
+["11","The Artisan","The human hands, knowledge and time behind the craft.","images/02_artisan_fibre.jpg"],
+["12","The Future","Preserving a living tradition while allowing it to evolve.","images/hero-real-workshop.jpg"]
 ];
 
 const grid=document.getElementById("lesson-grid");
