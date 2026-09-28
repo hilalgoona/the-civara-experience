@@ -176,3 +176,13 @@ footer{background:#171b17;color:#ddd;padding:60px 7vw;display:flex;justify-conte
 .lesson-video video{width:100%;display:block;background:#171914;max-height:620px;object-fit:contain}
 .video-caption{font-size:10px!important;letter-spacing:.12em;text-transform:uppercase;color:#8a826f!important;margin-top:12px}
 @media(max-width:560px){.lesson-video{margin-top:42px}.lesson-video video{max-height:70vh}}
+
+
+/* Opening evidence hero */
+.hero-evidence{min-height:calc(100vh - 82px);margin:0;display:flex;flex-direction:column;justify-content:center;box-sizing:border-box}
+.hero-evidence .evidence-intro{margin-bottom:clamp(45px,6vh,75px)}
+.hero-evidence .evidence-intro h1{font-family:"Playfair Display",Georgia,serif;font-weight:500}
+.hero-evidence .evidence-closing{max-width:1180px;margin:28px auto 0;width:100%;box-sizing:border-box}
+.hero-evidence .evidence-closing p{margin:0 0 10px;color:#d8d5cc}
+.hero-evidence .evidence-closing strong{font-family:"Playfair Display",Georgia,serif;font-size:20px;font-weight:500;color:#f5f1e8}
+@media(max-width:850px){.hero-evidence{min-height:auto}.hero-evidence .evidence-closing{margin-top:22px}}
