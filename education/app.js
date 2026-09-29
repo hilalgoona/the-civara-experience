@@ -60,3 +60,20 @@ document.querySelectorAll(".reveal").forEach(el=>observer.observe(el));
 document.querySelectorAll(".parallax img").forEach(img=>{
   img.addEventListener("load",()=>img.closest(".parallax")?.classList.add("loaded"));
 });
+
+const mobileMenu=document.querySelector(".mobile-menu");
+const siteMenu=document.getElementById("site-menu");
+if(mobileMenu && siteMenu){
+  mobileMenu.addEventListener("click",()=>{
+    const open=siteMenu.classList.toggle("mobile-open");
+    mobileMenu.setAttribute("aria-expanded",String(open));
+    mobileMenu.setAttribute("aria-label",open?"Close menu":"Open menu");
+  });
+  siteMenu.querySelectorAll("a").forEach(link=>{
+    link.addEventListener("click",()=>{
+      siteMenu.classList.remove("mobile-open");
+      mobileMenu.setAttribute("aria-expanded","false");
+      mobileMenu.setAttribute("aria-label","Open menu");
+    });
+  });
+}
