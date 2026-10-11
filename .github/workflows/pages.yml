@@ -8,6 +8,8 @@ on:
       - ".github/workflows/pages.yml"
       - ".nojekyll"
       - "index.html"
+      - "shop.html"
+      - "wholesale.html"
       - "styles.css"
       - "app.js"
   workflow_dispatch:
@@ -38,6 +40,8 @@ jobs:
           cp -R education/. _site/education/
           cp .nojekyll _site/.nojekyll
           cp index.html _site/index.html
+          cp shop.html _site/shop.html
+          cp wholesale.html _site/wholesale.html
           cp styles.css _site/styles.css
           cp app.js _site/app.js
 
