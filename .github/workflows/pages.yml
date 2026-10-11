@@ -10,6 +10,8 @@ on:
       - "index.html"
       - "shop.html"
       - "wholesale.html"
+      - "workshop.html"
+      - "journey.html"
       - "styles.css"
       - "app.js"
   workflow_dispatch:
@@ -42,6 +44,8 @@ jobs:
           cp index.html _site/index.html
           cp shop.html _site/shop.html
           cp wholesale.html _site/wholesale.html
+          cp workshop.html _site/workshop.html
+          cp journey.html _site/journey.html
           cp styles.css _site/styles.css
           cp app.js _site/app.js
 
