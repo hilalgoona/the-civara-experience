@@ -2,7 +2,7 @@ name: Deploy Civara Website to GitHub Pages
 
 on:
   push:
-    branches: ["main", "civara-new-website"]
+    branches: ["main"]
     paths:
       - "education/**"
       - ".github/workflows/pages.yml"
