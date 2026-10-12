@@ -1,4 +1,4 @@
-name: Deploy Civara Education to GitHub Pages
+name: Deploy Civara Website to GitHub Pages
 
 on:
   push:
@@ -8,6 +8,16 @@ on:
       - ".github/workflows/pages.yml"
       - ".nojekyll"
       - "index.html"
+      - "shop.html"
+      - "wholesale.html"
+      - "workshop.html"
+      - "journey.html"
+      - "guest-house.html"
+      - "chai.html"
+      - "story.html"
+      - "contact.html"
+      - "styles.css"
+      - "app.js"
   workflow_dispatch:
 
 permissions:
@@ -35,20 +45,17 @@ jobs:
           mkdir -p _site/education
           cp -R education/. _site/education/
           cp .nojekyll _site/.nojekyll
-          cat > _site/index.html <<'EOF'
-          <!doctype html>
-          <html lang="en">
-          <head>
-            <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <meta http-equiv="refresh" content="0; url=education/">
-            <title>Civara Workshop — Kashmir Pashmina Education</title>
-          </head>
-          <body>
-            <p>Opening <a href="education/">Kashmir Pashmina Education</a>…</p>
-          </body>
-          </html>
-          EOF
+          cp index.html _site/index.html
+          cp shop.html _site/shop.html
+          cp wholesale.html _site/wholesale.html
+          cp workshop.html _site/workshop.html
+          cp journey.html _site/journey.html
+          cp guest-house.html _site/guest-house.html
+          cp chai.html _site/chai.html
+          cp story.html _site/story.html
+          cp contact.html _site/contact.html
+          cp styles.css _site/styles.css
+          cp app.js _site/app.js
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
