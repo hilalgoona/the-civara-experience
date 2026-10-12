@@ -12,6 +12,7 @@ on:
       - "wholesale.html"
       - "workshop.html"
       - "journey.html"
+      - "journal.html"
       - "guest-house.html"
       - "chai.html"
       - "story.html"
@@ -50,6 +51,7 @@ jobs:
           cp wholesale.html _site/wholesale.html
           cp workshop.html _site/workshop.html
           cp journey.html _site/journey.html
+          cp journal.html _site/journal.html
           cp guest-house.html _site/guest-house.html
           cp chai.html _site/chai.html
           cp story.html _site/story.html
