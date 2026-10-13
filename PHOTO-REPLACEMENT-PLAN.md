@@ -41,3 +41,14 @@ This file is the image-placement plan for the review branch. Keep this branch un
 - Do not portray the Ladakh building in the window photograph as the guest house without confirmation.
 - Do not publish identifiable children without suitable permission.
 - Before final approval, verify all image paths, responsive crops, alt text, and the GitHub Pages build.
+
+## Current implementation check — 13 October 2026
+
+- The current review branch contains the loom-detail photo and the existing education/craft reference images listed in the repository tree.
+- The following authentic user-uploaded photos are present in the conversation workspace but are **not yet stored in this GitHub branch**; do not reference them in site HTML/CSS until their upload is verified:
+  - Product candidates: `IMG_20261002_164141.jpg`, `IMG_20261002_164225.jpg`, `IMG_20261002_162913.jpg`, plus the September textile photos.
+  - Journey candidates: `IMG_20260825_162829.jpg` (lake panorama), `IMG_20260823_160816.jpg` (camel/mountain scene), and `IMG_20260817_084355.jpg` (group photo candidate).
+- Product photos must be visually checked against the two distinct product records before assigning captions or claims. The three product candidates above are not yet mapped to a specific product on this branch.
+- The current Shop collection cards still use craft-reference imagery for some categories; they must not be treated as proof of a specific item or its certification.
+- The Journey page currently uses the existing repository mountain image for both its hero and feature block. Replace one of these with a verified user journey photo once that file is added to the branch.
+- This checklist is intentionally conservative: a file is only considered implemented after it appears in the branch tree and its path is verified.
