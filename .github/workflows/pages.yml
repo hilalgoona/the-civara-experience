@@ -16,6 +16,8 @@ on:
       - "*.PNG"
       - "*.webp"
       - "*.WEBP"
+      - "*.mp4"
+      - "*.MP4"
       - "index.html"
       - "shop.html"
       - "wholesale.html"
@@ -56,7 +58,7 @@ jobs:
           cp -R education/. _site/education/
           cp .nojekyll _site/.nojekyll
           cp CNAME _site/CNAME
-          cp ./*.jpg ./*.JPG ./*.jpeg ./*.JPEG ./*.png ./*.PNG ./*.webp ./*.WEBP _site/ 2>/dev/null || true
+          cp ./*.jpg ./*.JPG ./*.jpeg ./*.JPEG ./*.png ./*.PNG ./*.webp ./*.WEBP ./*.mp4 ./*.MP4 _site/ 2>/dev/null || true
           cp index.html _site/index.html
           cp shop.html _site/shop.html
           cp wholesale.html _site/wholesale.html
