@@ -4,7 +4,7 @@ on:
   push:
     branches: ["main"]
     paths:
-      - "education/**"
+      - "education/**"\n      - "fr/**"\n      - "es/**"\n      - "de/**"\n      - "ar/**"\n      - "ur/**"
       - ".github/workflows/pages.yml"
       - ".nojekyll"
       - "CNAME"
@@ -55,7 +55,7 @@ jobs:
         run: |
           rm -rf _site
           mkdir -p _site/education
-          cp -R education/. _site/education/
+          cp -R education/. _site/education/\n          cp -R fr es de ar ur _site/
           cp .nojekyll _site/.nojekyll
           cp CNAME _site/CNAME
           cp ./*.jpg ./*.JPG ./*.jpeg ./*.JPEG ./*.png ./*.PNG ./*.webp ./*.WEBP ./*.mp4 ./*.MP4 _site/ 2>/dev/null || true
