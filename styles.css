@@ -51,3 +51,20 @@
 .workshop-hero-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;display:block;z-index:1;filter:brightness(.62)}
 .page-hero .hero-content{z-index:3}
 @media(prefers-reduced-motion:reduce){.workshop-hero-video{display:none}}
+
+
+/* Homepage craft cards and refined section rhythm */
+.home-craft{padding-top:90px;padding-bottom:120px}
+.home-craft-heading{max-width:760px;margin-bottom:54px}
+.home-craft-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.home-craft-card{display:flex;flex-direction:column;min-width:0;overflow:hidden}
+.home-craft-card img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;background:#ded5c8;transition:transform .7s cubic-bezier(.2,.7,.2,1),filter .5s}
+.home-craft-card:hover img,.home-craft-card:focus-visible img{transform:scale(1.025);filter:brightness(.94)}
+.home-craft-number{font-size:10px;letter-spacing:.16em;color:#85745f;margin-top:22px}
+.home-craft-title{font-family:"Playfair Display",Georgia,serif;font-size:clamp(27px,3vw,39px);line-height:1.15;margin-top:9px}
+.home-craft-link{font-size:11px;letter-spacing:.1em;text-transform:uppercase;margin-top:16px;color:#625a50}
+.feature-copy .text-link{border-color:#a99983}
+.site-header{transition:background .25s ease}
+@media(max-width:800px){.home-craft{padding-top:75px;padding-bottom:85px}.home-craft-heading{margin-bottom:35px}.home-craft-grid{grid-template-columns:1fr 1fr;gap:24px 14px}.home-craft-card:last-child{grid-column:1/-1}.home-craft-card:last-child img{aspect-ratio:16/9}.home-craft-title{font-size:29px}}
+@media(max-width:520px){.home-craft-grid{grid-template-columns:1fr}.home-craft-card:last-child{grid-column:auto}.home-craft-card img,.home-craft-card:last-child img{aspect-ratio:4/3}.home-craft-title{font-size:32px}}
+@media(prefers-reduced-motion:reduce){.home-craft-card img{transition:none}}
