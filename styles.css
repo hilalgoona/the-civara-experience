@@ -68,3 +68,22 @@
 @media(max-width:800px){.home-craft{padding-top:75px;padding-bottom:85px}.home-craft-heading{margin-bottom:35px}.home-craft-grid{grid-template-columns:1fr 1fr;gap:24px 14px}.home-craft-card:last-child{grid-column:1/-1}.home-craft-card:last-child img{aspect-ratio:16/9}.home-craft-title{font-size:29px}}
 @media(max-width:520px){.home-craft-grid{grid-template-columns:1fr}.home-craft-card:last-child{grid-column:auto}.home-craft-card img,.home-craft-card:last-child img{aspect-ratio:4/3}.home-craft-title{font-size:32px}}
 @media(prefers-reduced-motion:reduce){.home-craft-card img{transition:none}}
+
+/* Homepage Pashmina Education section */
+.pashmina-education{background:#e8e0d4;padding-top:115px;padding-bottom:115px}
+.pashmina-education-intro{max-width:800px;margin:0 auto 65px;text-align:center}
+.pashmina-education-intro .lead{margin:0 auto 22px}
+.education-spinning{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:7vw;align-items:center;margin-bottom:70px}
+.education-image{min-width:0}
+.education-image img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;background:#d5cabb}
+.education-copy h3,.education-craft-card h3{font-family:"Playfair Display",Georgia,serif;font-size:clamp(30px,3.4vw,44px);font-weight:500;line-height:1.1;margin:0 0 22px;letter-spacing:-.025em}
+.education-copy p:not(.eyebrow),.education-craft-card p:not(.eyebrow){font-size:14px;line-height:1.8;color:#5e564c}
+.education-note{border-left:2px solid #a18c70;padding-left:17px;margin-top:22px}
+.education-craft-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.education-craft-card{background:#f3efe7;min-width:0}
+.education-craft-card>img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;background:#d5cabb}
+.education-craft-card>div{padding:30px}
+.education-craft-card h3{font-size:clamp(29px,3vw,38px)}
+.education-bottom-link{display:flex;align-items:center;justify-content:space-between;gap:25px;margin-top:45px;padding-top:30px;border-top:1px solid rgba(23,22,19,.18)}
+.education-bottom-link p{max-width:550px;line-height:1.7;color:#5e564c}
+@media(max-width:800px){.pashmina-education{padding-top:85px;padding-bottom:85px}.pashmina-education-intro{margin-bottom:45px}.education-spinning{grid-template-columns:1fr;gap:30px;margin-bottom:45px}.education-craft-grid{grid-template-columns:1fr}.education-craft-card>div{padding:25px}.education-bottom-link{align-items:flex-start;flex-direction:column;gap:10px}}
