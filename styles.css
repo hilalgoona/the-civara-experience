@@ -87,3 +87,7 @@
 .education-bottom-link{display:flex;align-items:center;justify-content:space-between;gap:25px;margin-top:45px;padding-top:30px;border-top:1px solid rgba(23,22,19,.18)}
 .education-bottom-link p{max-width:550px;line-height:1.7;color:#5e564c}
 @media(max-width:800px){.pashmina-education{padding-top:85px;padding-bottom:85px}.pashmina-education-intro{margin-bottom:45px}.education-spinning{grid-template-columns:1fr;gap:30px;margin-bottom:45px}.education-craft-grid{grid-template-columns:1fr}.education-craft-card>div{padding:25px}.education-bottom-link{align-items:flex-start;flex-direction:column;gap:10px}}
+
+
+/* Language selector */
+.language-picker select{appearance:auto;background:rgba(20,18,15,.28);color:inherit;border:1px solid rgba(255,255,255,.45);padding:9px 26px 9px 11px;font:inherit;font-size:11px;letter-spacing:.04em;max-width:145px;border-radius:0;cursor:pointer}.language-picker option{color:#171613;background:#f3efe7}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.language-picker{display:inline-flex;align-items:center}@media(max-width:800px){.language-picker select{max-width:155px;padding:10px;background:#211e1a;color:#fff}}
