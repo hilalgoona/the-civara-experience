@@ -223,3 +223,24 @@ footer{background:#171b17;color:#ddd;padding:60px 7vw;display:flex;justify-conte
 .gi-evidence-note span{color:#69655d;font-size:13px;line-height:1.6}
 @media(max-width:900px){.gi-evidence-grid{grid-template-columns:1fr 1fr}.gi-evidence-grid img{height:300px}.gi-evidence-note{display:block}.gi-evidence-note strong{display:block;margin-bottom:8px}}
 @media(max-width:560px){.gi-evidence-grid{grid-template-columns:1fr}.gi-evidence-grid img{height:340px}.gi-evidence{margin-top:50px}.gi-evidence-note{padding:20px}}
+
+
+/* Pashmina Education — watercolor learning cards */
+.lesson-grid{gap:16px;border:0;grid-template-columns:repeat(4,minmax(0,1fr))}
+.lesson{border:1px solid #e1d6c3;border-radius:4px;background:#fffaf1;box-shadow:0 7px 22px rgba(76,55,32,.045);transform:translateY(0)}
+.lesson:hover{background:#fffdf8;transform:translateY(-4px);box-shadow:0 13px 28px rgba(76,55,32,.09)}
+.lesson-image{height:auto;aspect-ratio:1.32;background:#f3e9d8;padding:8px}
+.lesson-image img{object-fit:contain;mix-blend-mode:multiply;transition:transform .7s ease;filter:saturate(.94)}
+.lesson:hover .lesson-image img{transform:scale(1.035)}
+.lesson-copy{padding:20px 22px 24px}
+.lesson h3{margin:16px 0 8px;color:#6f3027}
+.lesson .num{color:#9a7850}
+.lesson .read{color:#7c3026;border-color:#c9a68b}
+.archive-original,.archive-slices-intro,.archive-real-grid{display:none!important}
+.archive-collage{gap:18px}
+.archive-collage figure{background:#fffaf1;padding:10px 10px 14px;border:1px solid #e3d7c4}
+.archive-collage img{display:block;width:100%;height:100%;object-fit:cover}
+.archive-collage figcaption{padding:0 4px}
+.reveal{transition:opacity .7s ease,transform .7s ease}
+@media(max-width:900px){.lesson-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}}
+@media(max-width:560px){.lesson-grid{grid-template-columns:1fr;gap:14px}.lesson-image{aspect-ratio:1.6}.lesson-copy{padding:18px}.archive-collage{gap:12px}}
